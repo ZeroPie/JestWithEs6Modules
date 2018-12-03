@@ -1,7 +1,7 @@
 'use strict';
 import {createRequestObject} from './directionsRequest';
 
-it('works with `import`', () => {
+it('Returns a Request', () => {
   const request = createRequestObject(mapValues);
   console.log(request);
 });
